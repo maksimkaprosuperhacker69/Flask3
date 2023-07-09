@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 8px;
+}
+.chat_for_replit{
+    display: inline-block;
+    padding: 0.6rem;
+    padding-left: 7%;
+    padding-right: 7%;
+    border-radius: 22px;
+    background: #008CE1;
+    color: #FFF;
+font-size: 40px;
+font-family: Muna;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin:0;
+margin-top: 5px;
+vertical-align:top;
+}
+.home_page{
+color: #008CE1;
+margin: 0;
+font-size: 70px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: inline-block;
+vertical-align:top;
+margin-left: 8%;
+text-align: center;
+}
+.login_as{
+display: inline-block;
+color: #008CE1;
+font-size: 36px;
+font-family:Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 6%;
+margin-top: 1%;
+}
+.name{
+    color: rgb(24, 231, 24);
+
+}
+.gal{
+    
+    margin-left: 10px;
+}
+.link{
+    vertical-align: bottom;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+}
+.line{
+    height: 10px;
+    background-color: #008CE1;
+    margin-top: 15px;
+}
+.user_name{
+    display: inline-block;
+}
+.delete{
+    display: inline-block;
+}
+.delete_but{
+    border-radius: 6px;
+    background: #F00;
+    color: #FFF;
+    border: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 50px;
+}
+.mini_line{
+    height: 7px;
+    background-color: #008CE1;
+    margin-top: 15px;
+    width: 500px;
+}
+.text_message{
+    margin: 5px;
+    margin-left: 0;
+}
+.but_accept{
+    background-color: #008CE1;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+
+
+
+
+
+.form-control {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 190px;
+  }
+  
+  .form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #008CE1 solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color:black;
+  }
+  
+  .form-control input:focus,
+  .form-control input:valid {
+    outline: 0;
+    border-bottom-color: #008CE1;
+  }
+  
+  .form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .form-control label span {
+    display: inline-block;
+    font-size: 30px;
+    min-width: 5px;
+    color: #008CE1;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .form-control input:focus+label span,
+  .form-control input:valid+label span {
+    color: #008CE1;
+    transform: translateY(-30px);
+  }

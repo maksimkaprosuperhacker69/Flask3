@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="static/css/style_in_log.css" />
+  </head>
+  <body>
+    <div class="login">
+      <h1 class="def_h1">REGISTRATION PAGE</h1>
+      <h3 class="def_h3">PLEASE ENTRE YOUR NEW LOGIN AND PASSWORD</h3>
+      <div class="login_form">
+        <form action="/singup" method="post">
+          <label for="text_in" class="label_form">
+            <h4 class="log">LOGIN</h4>
+            <input type="text" id="text_in" name="new_login" />
+          </label>
+          <label class="label_form">
+            <h4 class="h4_form">PASSWORD</h4>
+            <input type="password" name="new_password" />
+          </label>
+          <label class="cyberpunk-checkbox-label">
+            <input
+              class="cyberpunk-checkbox"
+              type="checkbox"
+              name="check"
+              required
+            />
+            <h4 class="h4_form">Consent to registration</h4></label
+          >
+          <button type="submit" class="shadow__btn">SING UP</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
